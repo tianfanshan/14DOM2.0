@@ -11,10 +11,10 @@ console.log(url);
 let url01 = document.location;
 console.log(url01);
 
-let nodosDeImagen = document.getElementsByClassName("infocard-lg-img");
+let nodosDeImagen = document.images;
 console.log(nodosDeImagen);
 
 for(let i = 0 ; i < nodosDeImagen.length ; i++){
     console.log(nodosDeImagen[i])
-    nodosDeImagen.innerText = ""
+    nodosDeImagen[i].src = "./asset/undefined - Imgur.gif"
 }
